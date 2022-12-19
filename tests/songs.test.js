@@ -9,7 +9,7 @@ const {
     getLongestSong
 } = require('../src/songs');
 
-//Exercice 1
+/*//Exercice 1
 describe('function "get all artists"', () => {
     it('should be declared', () => {
         expect(typeof getAllArtists).toBe('function');
@@ -200,7 +200,7 @@ describe('function "orderByYear"', () => {
         ]);
     });
 });
-
+*/
 //Exercise 5
 describe('function "songsByGenre"', () => {
     it('should be declared', () => {
@@ -259,7 +259,7 @@ describe('function "songsByGenre"', () => {
         ]);
     });
 });
-
+/*
 //Exercise 6
 describe('function "minutsToSeconds"', () => {
     it('should be declared', () => {
@@ -300,9 +300,10 @@ describe('function "getLongestSong"', () => {
         expect(getLongestSong(songs)).not.toEqual(songs);
     });
     //Bug in review
-    /* it('should return an array of songs with duration as a number', () => {
+    it('should return an array of songs with duration as a number', () => {
         expect(typeof getLongestSong(songs)[0].duration).toBe('number');
-    }); */
+    }); 
+    
     it('should return an array of songs with the longest song', () => {
         const arr = [
             { title: "Lust For Life", duration: "2min 35sec" },
@@ -327,3 +328,4 @@ describe('function "getLongestSong"', () => {
 
 //Exercise 8
 //Write the getShortestSong() test
+*/
